@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <h1>FORMULARIO de REGISTRO</h1>
+    
+    <form action="">
+        <label for="name">
+            <span>Nombre(s): </span>
+            <input type="text" id="name" name="name" autocomplete="name" required/><br>
+        </label>
+        
+        <br><label for="day">
+            <span>Fecha de nacimiento: </span>
+            <input type="date" id="day" name="day"/><br>
+        </label>
+        <br><p>Elija su auto: <p>
+        <input list="cars" placeholder="Elija su auto">
+        <datalist id="cars">
+            <option value="BMW Series M"></option>
+            <option value="Audi A4"></option>
+            <option value="Honda Civic Touring"></option>
+            <option value="Smart Fortwo 1.0"></option>
+            <option value="Susuki Swift"></option>
+        </datalist>
+
+        <p>Elija su financiamiento: </p>
+        <input type="radio" id="cash" name="cash" value="contado">
+        <label for="cash">Contado </label>
+        <input type="radio" id="credit" name="credit" value="credito">
+        <label for="credit">Credito </label><br>
+        <br><label for="email">
+            <span>Email: </span>
+            <input type="email" id="email" name="email" autocomplete="email" required/><br>
+        </label>
+        <br><label for="celnumber">
+            <span>Telèfono mòvil: </span>
+            <input type="tel" id="celnumber" name="celnumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/><br>
+            <small>(Formato: 123-456-7890)</small><br><br>
+        </label>
+        <br><label for="cp">
+            <span>Còdigo postal: </span>
+            <input type="text" id="cp" name="cp" autocomplete="postal-code"/><br>
+        </label>
+        <br><input type="submit" value="Enviar datos">
+    </form>
+
+    
+</body>
+</html>
