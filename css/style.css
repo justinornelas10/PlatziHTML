@@ -4,6 +4,37 @@
     text-align: center;
 }
 
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 10px;
+    background-color: lightblue;
+    text-align:center;
+}
+
+.main-nav__item{
+    display: inline-block;
+
+}
+
+.main-nav__item a{
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.main-nav__item a:hover{
+    color: gray;
+}
+
+.main-nav__item a:active{
+    color: gray;
+}
+.main-nav__item a::after{
+    content: " | ";
+}
+
 .title2{
     color:darkcyan;
 }
@@ -26,3 +57,7 @@ li a{
 li figcaption{
     font-size: 12px;
 }
+
+
+
+
