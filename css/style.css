@@ -1,0 +1,28 @@
+.title1{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+
+.title2{
+    color:darkcyan;
+}
+
+.list img{
+    max-width: 50%;
+    bottom: auto;
+}
+
+ul{
+    list-style: square;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+li a{
+    font-size: 20px;
+}
+
+li figcaption{
+    font-size: 12px;
+}
