@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header-title1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    list-style: none;
+    padding-left: 10px;
+    background-color: lightblue;
+    text-align:center;
+    padding-bottom: 10px;
+
+}
+
+.header-nav__item{
+    display: inline-block;
+}
+
+.header-nav__item a{
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.header-nav__item a:hover{
+    color: gray;
+}
+
+.header-nav__item a:active{
+    color: gray;
+}
+.header-nav__item a::before{
+    content: " | ";
+}
+
+aside#left{
+    background-color: white;
+    width: 40rem;
+    height: auto;
+    position: absolute;
+    top: 8.5rem;
+    text-align: center;
+    
+}
+
+aside#left h3{
+    font-size: 2.5rem;
+    font-family:monospace;
+    margin-top: 1rem;
+}
+
+aside#left div{
+    position: relative;
+    width: 20rem;
+    height: 10rem;
+    background-color: orange;
+    border: 0.5rem solid black;
+    margin: 1rem;
+    margin-bottom: 10rem;
+    left: 8rem;
+    top: 10rem;
+}
+
+aside#left div p{
+    font-size: 1.5rem;
+}
+
+main{
+    padding-left:40rem;
+}
+
+.main-title2{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+.main-types{
+    height: auto;
+    padding: 0px 10px;
+    background-color:lightgrey;
+}
+
+.main-types h3{
+    font-size: 2.2rem;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.main-types div {
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+    background-color: white;
+    border: 0.5rem solid black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.main-types div p{
+    font-size: 2.2rem;
+    text-align: justify;
+}
+
+.main-types img{
+    max-width: 30rem;
+}
+
+.main-types div figcaption{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+footer{
+    background-color: darkgray;
+}
+
+
+
+
